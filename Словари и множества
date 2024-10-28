@@ -1,0 +1,12 @@
+my_dict = {"Spokoinoi nochi malishi" : 19.15, "Kriminalnaya Rossiya" : 21.35, "Novosti" : 23.55}
+print(my_dict)
+print(my_dict["Spokoinoi nochi malishi"])
+print(my_dict.get("Jivotnii mir"))
+my_dict["Sherlok"] =  12.45
+my_dict["Sport"] = 14.25
+print(my_dict)
+my_set = {1,2,1,2,1,2,3,3,3,3,4,5,4,5, "Алиса", (33,35,34)}
+print(my_set)
+my_set.update ([3.4, 3.6])
+print(my_set.discard(1))
+print(my_set)
